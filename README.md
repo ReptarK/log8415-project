@@ -16,6 +16,13 @@ In this project, we will ...
 - Add/Edit functions 
 - Push changes to *master* branch and it will automatically deploy to azure cloud serverless functions
 
+### Compile & Run
+To test the functions app locally, simply run this command in the console
+> func start
+
+This will create an API to call the functions: localhost:PORT/api/FUNCTION_1
+
+
 ## How to create a project from scratch
 ### Functions app project
 #### Create a functions app project
