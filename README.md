@@ -6,6 +6,11 @@
 Developers can leverage Azure Functions to build HTTP-based API endpoints that are accessible by a wide range of applications.
 With the CI/CD integration, it is easier than ever to develop and deploy the code on the cloud.
 
+In this project, we will ...
+- Create an Azure **Functions App**
+- Setup **Continuous Integration** (CI) with *Azure Build Pipeline*
+- Configure **Continuous Deployment** (CD) with *Azure Release Pipelines*
+
 ### **Work with the code**
 - Clone the repository
 - Add/Edit functions 
