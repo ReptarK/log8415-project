@@ -39,4 +39,4 @@ jobs:
           app-name: 'log8415-functions-app'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9F5A3E96FCFC4F21ABBC6D4DBD4C0FC7 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_75E6E519511142A097849A87DAC87507 }}
