@@ -48,6 +48,7 @@ This will create an API to call the functions: localhost:PORT/api/FUNCTION_1
 - Push project to GitHub repository
 - Go to *All Resources* and find your *functions-app*
 - Go to *Deployment Center* and connect with your GitHub account (This will create a .yaml deployment file)
+- Edit the .yaml file to set **AZURE_FUNCTIONAPP_PACKAGE_PATH** to the relative path of your functions app project
 - Push changes to *master branch* and it will automatically build/deploy to azure
 
 
