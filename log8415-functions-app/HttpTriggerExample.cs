@@ -10,9 +10,9 @@ using Newtonsoft.Json;
 
 namespace log8415_functions_app
 {
-    public static class HttpFuntionExample
+    public static class HttpTriggerExample
     {
-        [FunctionName("HttpFuntionExample")]
+        [FunctionName("HttpTriggerExample")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
             ILogger log)
