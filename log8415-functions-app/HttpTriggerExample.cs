@@ -27,7 +27,6 @@ namespace log8415_functions_app
 
             string responseMessage = "OK";
 
-
             return new OkObjectResult(responseMessage);
         }
     }
